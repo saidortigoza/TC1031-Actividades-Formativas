@@ -1,10 +1,10 @@
-#suma Iterativa
+# Suma Iterativa
 
 **Análisis de complejidad temporal**
 
 el algoritmo recorre n pasos ya que usa un ciclo que va i = 1 hatsa n, por los que su complejidad es O(n*n) para el peor de los casos.
 
-#suma Recursiva
+# Suma Recursiva
 
 **Análisis de complejidad temporal**
 
