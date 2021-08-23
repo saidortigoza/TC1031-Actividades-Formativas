@@ -8,7 +8,7 @@ El algoritmo recorre n pasos, ya que utiliza un ciclo for que va i = 1 hastaa n,
 
 **Análisis de complejidad temporal**
 
-El algoritmo se manda a llamar así mismo n veces, por los que su complejidad es O(n*n*n) para el peor de los casos.
+El algoritmo se manda a llamar así mismo n veces, por lo que su complejidad es O(n) para el peor de los casos.
 
 ## Suma directa
 
