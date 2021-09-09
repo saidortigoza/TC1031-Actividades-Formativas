@@ -2,7 +2,7 @@
 
 **Selection Sort**
 
-El algoritmo de ordenamiento de selección recorre n pasos dos veces mediante un ciclo for, por lo que en el peor de los casos su complejidad es O(n^2)
+El algoritmo de ordenamiento de selección recorre n pasos dos veces mediante un ciclo for, por lo que en el peor de los casos su complejidad es O(n^2).
 
 **Bubble Sort**
 
