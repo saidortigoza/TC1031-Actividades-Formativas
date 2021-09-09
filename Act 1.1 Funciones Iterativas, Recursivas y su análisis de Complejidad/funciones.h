@@ -15,20 +15,22 @@ public:
     int sumaDirecta(int);
 };
 
-int Funciones::sumaIterativa(int n){
+int Funciones::sumaIterativa(int n) {
     int sum = 0, i;
-    for(i = 1; i <= n; i++){
+    for(i = 1; i <= n; i++) {
         sum += i;
     }
     return sum;
 }
   
-int Funciones::sumaRecursiva(int n){
-    if(n == 0) return 0;
+int Funciones::sumaRecursiva(int n) {
+    if(n == 0) {
+        return 0;
+    }
     return n + sumaRecursiva(n - 1);
 }
 
-int Funciones::sumaDirecta(int n){
+int Funciones::sumaDirecta(int n) {
     return (n * (n + 1) / 2);
 }
 
