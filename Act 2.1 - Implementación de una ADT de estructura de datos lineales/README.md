@@ -1,21 +1,17 @@
 ## Análisis de complejidad temporal
 
-**Selection Sort**
+***insertion***
 
-El algoritmo de ordenamiento de selección recorre n pasos dos veces mediante un ciclo for, por lo que en el peor de los casos su complejidad es O(n^2).
+La función *insertion* inserta un elemento en la estructura de datos, recibe el valor a insertar y aumenta el tamaño de la lista. El algoritmo recorre n pasos, ya que utiliza un ciclo while para insertar el valor ingresado al final de la lista, por lo que su complejidad es *(O(n))* para el peor de los casos.
 
-**Bubble Sort**
+***search***
 
-El algoritmo de ordenamiento burbuja recorre n pasos 2 veces, al igual que el Selection Sort, porque en el peor de los casos tiene que comparar todos los números e intercambiar su posición, por lo que su complejidad es O(n^2).
+La función *search* busca la posición de un número dentro de la lista usando un ciclo while, y si el número no está dentro de la lista devuelve un -1. El algoritmo recorre *n* pasos, por lo que en el peor de los casos (que se daría cuando el número que busca está al final de la lista) su complejidad es lineal *(O(n))*.
 
-**Merge Sort**
+***update***
 
-El algoritmo de ordenamiento Merge divide la búsqueda en mitades cada vez más pequeñas, hasta que queda un sólo elemento (estamos frente a un O(log n)), y al momento de juntar los vectores ordenados recorre n pasos, por lo que su complejidad aumenta O(n), por lo tanto, su complejidad final de O(n log n).
+La función *update* actualiza el valor de un elemento dentro de la lista a partir del índice recibido por el usuario, recorriendo *n* pasos mediante un ciclo while, una vez que lo encuentra, cambia el valor actual con el valor nuevo. Debido a que en el peor de los casos tendría que recorrer la lista entera, su complejidad es *(O(n))*.
 
-**Búsqueda Secuencial**
+***deleteAt***
 
-El algoritimo de búsqueda secuencial recorre, en el peor de los casos, un arreglo completo utilizando un ciclo for, por lo que su complejidad es O(n).
-
-**Búsqueda Binaria**
-
-El algoritmo de búsqueda binaria funciona dividiendo la búsqueda en mitades utilizando la técnica de recursión, por lo que su complejidad es O(log n) para el peor de los casos.
+La función *deleteAt* elimina un elemento dentro de la lista según su posición y reduce el tamaño de la lista. El algoritmo funciona mediante un ciclo while que recorre *n* pasos hasta llegar al elemento deseado, por lo que su complejidad temporal es *(O(n))* para el peor de los casos.
