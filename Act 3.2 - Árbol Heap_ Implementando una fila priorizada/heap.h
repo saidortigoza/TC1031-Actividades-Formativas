@@ -2,7 +2,7 @@
 //  File: bst.h
 //  Date: 13/10/2021
 //  Author: Said Ortigoza
-//  Description: Implementación de la clase bst
+//  Description: Implementación de la clase Heap
 //
 //  Copyrigth (c) 2021 by Tecnologico de Monterrey.
 //  All Rights Reserved. May be reproduced for any non-commercial
