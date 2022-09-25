@@ -14,13 +14,7 @@
 
 ### How do you indicate that a class represents an entity to store in a Room database?
 
-* Make the class extend DatabaseEntity.
-
-* **Annotate the class with @Entity.**
-
-* Annotate the class with @Database.
-
-* Make the class extend RoomEntity and also annotate the class with @Room.
+* Annotate the class with @Entity.
 
 ## Question 2
 
@@ -28,13 +22,7 @@
 
 ### How do you indicate that an interface represents a DAO for a Room database?
 
-* Make the interface extend RoomDAO.
-
-* Make the interface extend EntityDao, then implement the DaoConnection() method.
-
 * Annotate the interface with @Dao.
-
-* Annotate the interface with @RoomConnection.
 
 ## Question 3
 
@@ -44,15 +32,9 @@
 
 * If you return LiveData from a query, Room will keep the LiveData updated for you if the LiveData changes.
 
-* Each Room database must have one, and only one, DAO.
-
-* To identify a class as a Room database, make it a subclass of RoomDatabase and annotate it with @Database.
-
 ## Question 4
 
 ### Which of the following annotations can you use in your @Dao interface? Choose all that apply.
-
-* @Get
 
 * @Update
 
@@ -66,11 +48,7 @@
 
 * Write instrumented tests.
 
-* Continue writing and running the app until it displays the data.
-
 * Replace the calls to the methods in the DAO interface by calls to equivalent methods in the Entity class.
-
-* Run the verifyDatabase() function provided by the Room library.
 
 ## Question 1
 
@@ -84,19 +62,11 @@
 
 * They always make app runs faster.
 
-* They can use exceptions.
-
 * They can be written and read as linear code.
 
 ## Question 2
 
 ### Which of the following is not true for suspend functions.?
-
-* An ordinary function annotated with the suspend keyword.
-
-* A function that can be called inside coroutines.
-
-* While a suspend function is running, the calling thread is suspended.
 
 * Suspend functions must always run in the background.
 
@@ -104,10 +74,4 @@
 
 ### Which of the following statements is NOT true?
 
-* When execution is blocked, no other work can be executed on the blocked thread.
-
-* When execution is suspended, the thread can do other work while waiting for the offloaded work to complete.
-
 * Suspending is more efficient, because threads may not be waiting, doing nothing.
-
-* Whether blocked or suspended, execution is still waiting for the result of the coroutine before continuing.
